@@ -1,0 +1,43 @@
+body{
+    background-color: #1e1d20;
+    }
+    
+    .principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+
+    h1{
+        text-align:center;
+        color: rgb(6, 135, 209);
+        font-size: 4.5em;}
+
+        h2{
+            text-align:center;
+            color: rgb(131, 209, 6);
+            font-size: 1.5em;}
+
+            h3{
+                text-align:left;
+                color: rgb(6, 135, 209);
+                font-size: 1.5em;}
+                h4{
+                    text-align:right;
+                    color: rgb(6, 135, 209);
+                    font-size: 1.5em;}
+
+        
+    .coluna1, .coluna2, .coluna3, .coluna4, .coluna5
+    {
+    align-items: center;
+    margin: 1%;
+    font-size: 1.5em;
+    text-align:center;
+    flex-grow: 1;
+    }
+    
+    img{
+    width: 100%;
+    margin: 1.5%;    
+    }
